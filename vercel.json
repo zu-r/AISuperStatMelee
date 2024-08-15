@@ -7,9 +7,8 @@
       }
     ],
     "functions": {
-        "/**": {
-          "excludeFiles": "{.next,*.cache,node_modules}/**"
-        }
+        "excludeFiles": "{.next,*.cache,node_modules}/**"
+
       }
 
   }
