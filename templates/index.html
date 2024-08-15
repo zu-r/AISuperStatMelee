@@ -24,7 +24,7 @@
             background-color: white;
             border-radius: 5px;
             position: relative;
-            margin-top: 80px; /* Adjust this value to move the container down */
+            margin-top: 80px; 
         }
         .message {
             display: flex;
@@ -48,12 +48,12 @@
         }
         .header {
             position: absolute;
-            top: -60px; /* Adjust as needed to position the header correctly */
+            top: -60px;
             left: 50%;
             transform: translateX(-60%);
             display: flex;
             align-items: center;
-            white-space: nowrap; /* Prevent text wrapping */
+            white-space: nowrap; 
         }
         .header .logo {
             height: 50px;
@@ -78,10 +78,8 @@
         </div>
     </div>
 
-    <!-- Include Vercel Analytics script -->
     <script src="https://cdn.vercel.com/analytics.js"></script>
     <script>
-        // Initialize Vercel Analytics
         document.addEventListener('DOMContentLoaded', function() {
             if (window.Vercel && window.Vercel.analytics) {
                 Vercel.analytics.inject();
@@ -144,7 +142,7 @@
             messageContainer.scrollTop = messageContainer.scrollHeight;
         }
 
-        addMessage('assistant', "Hi! I'm the bot behind Super Stat Melee. What would you like to know?");
+        addMessage('assistant', "Hi! I'm the bot behind Super Stat Melee. Currently, I can answer questions about players and tournaments. Make sure to put the subject in quotations (ie. \"Zain\" or \"Genesis X\"). What would you like to know?");
     </script>
 </body>
 </html>
